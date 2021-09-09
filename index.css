@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     height: 100vh;
@@ -45,6 +46,7 @@
     background-color: blueviolet;
 }
  .content h1{
+     font-family: 'anton';
      font-size: 60px;
      font-weight: 100;
      margin-top: 24px;
@@ -84,7 +86,7 @@
      transform: rotate(-90deg);
      position: absolute;
      left: -100px;
-     bottom: 20px;
+     bottom: 200px;
  }
  .social-links a{
      text-decoration: none;
